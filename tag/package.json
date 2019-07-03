@@ -1,0 +1,25 @@
+{
+    "name": "tag",
+    "displayName": "Interchange Syntax",
+    "description": "ITL",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.36.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "interchange",
+            "aliases": ["Interchange", "interchange"],
+            "extensions": [".html",".htm",".tag"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "interchange",
+            "scopeName": "source.ic.tags",
+            "path": "./syntaxes/IC.tmLanguage"
+        }]
+    }
+}

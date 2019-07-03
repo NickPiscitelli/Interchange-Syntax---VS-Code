@@ -1,0 +1,25 @@
+{
+    "name": "ic",
+    "displayName": "ICHTML",
+    "description": "IC Syntax",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.36.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "ic-html",
+            "aliases": ["Interchange HTML", "ic-html"],
+            "extensions": [".html",".htm",".shtml",".xhtml",".phtml",".inc",".tmpl",".tpl",".ctp"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "ic-html",
+            "scopeName": "text.html.ic",
+            "path": "./syntaxes/ICHTML.tmLanguage"
+        }]
+    }
+}

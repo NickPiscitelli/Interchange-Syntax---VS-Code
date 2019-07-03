@@ -13,7 +13,7 @@
         "languages": [{
             "id": "interchange",
             "aliases": ["Interchange", "interchange"],
-            "extensions": [".html",".htm",".tag"],
+            "extensions": [".html",".htm",".tag", ".itl"],
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{
